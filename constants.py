@@ -4,6 +4,6 @@ load_dotenv()
 
 SERVER_URL = 'localhost'
 PORT = os.getenv("PORT", "8000")
-ENV = 'dev'
+ENV = 'prod'
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
